@@ -71,16 +71,53 @@ body {
 #sideMenu {
   background: #302D43;
   max-width: 280px;
+  width: 280px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+#sideMenu nav {
+  padding-top: 100px;
 }
 
 #sideMenu nav a {
   display: block;
-  color: white;
+  color: #EAEDF3;
   text-decoration: none;
   padding: 15px 30px;
+  font-weight: 300;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+#sideMenu nav a:hover {
+  background: #282639;
+  border-left: 5px solid #92CF48;
+  padding: 15px 30px 15px 25px;
+}
+
+#sideMenu nav a:hover .fas {
+  color: #92CF48;
+}
+
+#sideMenu nav a .fas {
+  color: #EAEDF3;
+  font-size: 1.4rem;
+  margin-right: .8rem;
+  display: inline-block;
+  width: 30px;
+  position: relative;
+  top: 2px;
 }
 
 #sideMenu nav a.active {
   background: #282639;
+  border-left: 5px solid #92CF48;
+  padding: 15px 30px 15px 25px;
+}
+
+#sideMenu nav a.active .fas {
+  color: #92CF48;
 }
 /*# sourceMappingURL=main.css.map */
