@@ -87,8 +87,8 @@ body {
   text-decoration: none;
   padding: 15px 30px;
   font-weight: 300;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 #sideMenu nav a:hover {
@@ -119,5 +119,67 @@ body {
 
 #sideMenu nav a.active .fas {
   color: #92CF48;
+}
+
+header {
+  margin-left: 280px;
+  padding: 10px;
+  background: #fff;
+}
+
+header .search-area {
+  display: inline-block;
+}
+
+header .search-area .fas {
+  color: #EAEDF3;
+}
+
+header .search-area input[type="text"] {
+  background: transparent;
+  border: none;
+  font-size: 1.3rem;
+  color: #92CF48;
+  padding: 10px;
+  font-weight: 100;
+}
+
+header .user-field {
+  display: inline-block;
+  float: right;
+  padding: 10px;
+}
+
+header .user-field a {
+  display: inline-block;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+header .user-field a.notification {
+  position: relative;
+}
+
+header .user-field a.notification .circle {
+  background: red;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 11px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: -5px;
+  left: 5px;
+}
+
+header .user-field a .user-img {
+  background: url("https://s3.amazonaws.com/uifaces/faces/twitter/marcosmoralez/128.jpg") no-repeat center center;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
 }
 /*# sourceMappingURL=main.css.map */
