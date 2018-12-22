@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
 @import "reset";
 @import "variables";
+@import "content-area";
 
 * {
   -webkit-box-sizing: border-box;
@@ -153,9 +154,11 @@ header {
 
 
 
+
 input:focus,
 textarea:focus,
 input:active {
   background: $greyLight;
   outline: none;
 }
+
