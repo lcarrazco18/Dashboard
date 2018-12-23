@@ -63,6 +63,19 @@ table {
   padding: 15px;
 }
 
+#content-area .heading h1 {
+  color: purple;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+#content-area .heading p {
+  color: #1b1b1b;
+  font-size: .8rem;
+  margin-bottom: 10px;
+}
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
