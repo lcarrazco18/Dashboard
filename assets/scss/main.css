@@ -79,10 +79,40 @@ table {
 #content-area .cards .card {
   background: #fff;
   border-radius: 5px;
+  padding: 20px;
+}
+
+#content-area .cards .card .user-img {
+  background: url("https://s3.amazonaws.com/uifaces/faces/twitter/marcosmoralez/128.jpg") no-repeat center center;
+  background-size: cover;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#content-area .cards .card .user-name {
+  font-size: 1rem;
+  color: purple;
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#content-area .cards .card .user-title {
+  font-size: .8rem;
+  display: block;
+  text-align: center;
+  margin: 10px 0;
 }
 
 .col-md-4 {
   width: 33.33333%;
+  padding: 0 15px;
+}
+
+.col-md-3 {
+  width: 25%;
   padding: 0 15px;
 }
 
