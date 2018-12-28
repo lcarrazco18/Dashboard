@@ -106,14 +106,33 @@ table {
   margin: 10px 0;
 }
 
+#content-area .cards .card .education {
+  font-size: .8rem;
+}
+
+#content-area .cards .card .schools {
+  font-size: .8rem;
+}
+
 .col-md-4 {
   width: 33.33333%;
   padding: 0 15px;
+  display: inline-block;
+  float: left;
 }
 
 .col-md-3 {
   width: 25%;
   padding: 0 15px;
+  display: inline-block;
+  float: left;
+}
+
+.col-md-9 {
+  width: 75%;
+  padding: 0 15px;
+  display: inline-block;
+  float: left;
 }
 
 * {
