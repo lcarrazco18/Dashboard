@@ -22,7 +22,7 @@
         overflow: auto;
         margin-bottom: 30px;
 
-        .card {            
+        .card {
             background: #fff;
             border-radius: 5px;
             padding: 20px;
@@ -54,17 +54,21 @@
                 text-align: center;
                 margin: 10px 0;
             }
+
             .education {
                 font-size: .8rem;
-                color: $greyDark;
+                color: $greyDarkFont;
                 display: inline-block;
             }
+
             .schools {
                 font-size: .8rem;
             }
+
             h6 {
                 font-size: .8rem;
             }
+
             .date {
                 font-size: 1.3rem;
                 display: block;
@@ -74,12 +78,47 @@
                 padding: 5px 40px;
                 margin: 20px 0;
             }
+
+            .job-type {
+                background: orange;
+                width: 20px;
+                height: 20px;
+                font-size: .6rem;
+                color: white;
+                padding: 5px;
+                display: inline-block;
+                border-radius: 50%;
+                text-align: center;
+                vertical-align: middle;
+            }
+
+            .location {
+                font-size: .8rem;
+                font-weight: 300;
+                display: block;
+                margin-bottom: .5rem;
+            }
+
+            .position {
+                font-size: .8rem;
+                font-weight: 500;
+                display: block;
+                margin-bottom: .5rem;
+            }
+
+            .time {
+                font-size: .8rem;
+                font-weight: 300;
+                display: block;
+                color: $greyDarkFont;
+                margin-bottom: .5rem;
+            }
         }
     }
 }
 
-.col-md-4 {
-    width: (4 * 100 / 12) + %;
+.col-md-2 {
+    width: (2 * 100 / 12) + %;
     padding: 0 15px;
     display: inline-block;
     float: left;
@@ -92,8 +131,22 @@
     float: left;
 }
 
+.col-md-4 {
+    width: (4 * 100 / 12) + %;
+    padding: 0 15px;
+    display: inline-block;
+    float: left;
+}
+
 .col-md-9 {
     width: (9 * 100 / 12) + %;
+    padding: 0 15px;
+    display: inline-block;
+    float: left;
+}
+
+.col-md-10 {
+    width: (10 * 100 / 12) + %;
     padding: 0 15px;
     display: inline-block;
     float: left;
